@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "phone-number"
+version = "0.1.0"
+description = "Phonenumber api"
+authors = ["jp-sft <kvnjessy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+phonenumbers = "^8.13.32"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
