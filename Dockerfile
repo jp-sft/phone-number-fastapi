@@ -1,5 +1,6 @@
 # 
 FROM python:3.11-alpine
+LABEL org.opencontainers.image.source https://github.com/jp-sft/phone_number_fastapi
 
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
